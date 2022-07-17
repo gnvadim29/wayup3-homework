@@ -1,0 +1,130 @@
+@import url('null_style.css');
+body{
+    font-family: Ubuntu;
+}
+.header{
+    background: rgba(77,190,253,1);
+    background: -moz-linear-gradient(left, rgba(77,190,253,1) 0%, rgba(117,189,209,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,190,253,1)), color-stop(0%, rgba(117,189,209,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(left, rgba(77,190,253,1) 0%, rgba(117,189,209,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(77,190,253,1) 0%, rgba(117,189,209,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(77,190,253,1) 0%, rgba(117,189,209,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(to right, rgba(77,190,253,1) 0%, rgba(117,189,209,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbefd', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 65px;
+}
+._container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header_block{
+    display: flex;
+    justify-content: space-between;
+}
+.header_title{
+    margin: 155px 0 0 0;
+    font-weight: 700;
+    font-size: 37px;
+    color: #fff;
+    width: 550px;
+    line-height: 150%;
+}
+.big{
+    font-size: 59px;
+}
+.header_text{
+    margin: 45px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 25px;
+    width: 385px;
+}
+.btn{
+    display: block;
+    width: 220px;
+    font-family: Motserrat;
+    padding: 20px 25px;
+    background: #ffd429;
+    font-size: 15px;
+    font-weight: 900;
+    color: #000;
+    letter-spacing: 0.1em;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background: #d7af10;
+}
+.image{
+    margin: 60px 0 0 0;
+    padding: 0 0 144px 0;
+}
+.my_future-block{
+    padding: 115px 0 0 0;
+}
+.block-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.my_goals{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0 120px 0;
+}
+.my_goal{
+    width: 300px;
+    display:block;
+
+}
+.my_goal >*{
+    text-align: center;
+}
+.goal-img{
+    display: flex;
+    margin: 0 auto;
+}
+.goal-title{
+    padding: 30px 0 25px 0;
+    font-size: 19px;
+    font-weight: 700;
+}
+.goal-text{
+    font-size: 15px;
+}
+.tickets{
+    background: #ecf2f8;
+    
+}
+.tickets_block{
+    padding: 105px 0 0 0;
+}
+.form{
+    display: block;
+    width: 380px;
+    margin: 0 auto;
+    padding: 60px 0 100px 0;
+}
+.form input{
+    height: 45px;
+    width: 340px;
+    padding-left: 25px;
+}
+.form .btn{
+    height: 45px;
+    width: 340px;
+    padding-top: 15px;
+}
+.form *{
+    margin-bottom: 15px;
+}
+.footer p{
+    text-align: center;
+    padding: 55px 0 60px 0 ;
+    font-family: 'Open Sans';
+    color: #fff;
+    font-size: 14px;
+}
+.footer{
+    background: #164d7a;
+}
